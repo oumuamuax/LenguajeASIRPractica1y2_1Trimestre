@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica de enlaces y Tabla</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> Lo añado para que veas que sabría hacerlo -->
+</head>
+
+<body>
+    <h2>Lista de términos</h2>
+
+    <div style="background-color: #d3d3d3;">
+        <p>Permite crear una lista de definiciones de términos. En ellas se indica el término a definir y su
+            significado. Ejemplo:</p>
+        <pre>
+    &lt;dl&gt;
+        &lt;dt&gt;Windows&lt;/dt&gt;
+        &lt;dd&gt;
+            Sistema operativo de <b>Microsoft</b> disponible para PC 
+            disponible en versiones de 32 y 64 bits y para servidores, 
+            ordenadores e incluso tabletas y móviles.
+
+            La última versión es la 8 y la 2012 para servidores.
+        &lt;/dd&gt;
+        &lt;dt&gt;Linux&lt;/dt&gt;
+        &lt;dd&gt;
+            Sistema operativo de código abierto disponible
+            en numerosas distribuciones gratuitas y de pago.
+            Es la base del sistema <b>Android.</b>
+        &lt;/dd&gt;
+    &lt;/dl&gt;
+
+</pre>
+    </div>
+    <hr>
+    <h2>Tabla y enlaces</h2>
+
+    <div>
+        <table border="1" cellspacing="0" cellpadding="8" width="80%">
+            <caption>Tabla de la practica 2</caption>
+            <tr>
+                <td bgcolor="#d3d3d3">
+                    <center><b>Imagen como enlace externo a Google en pestaña nueva</b></center>
+                </td>
+                <td colspan="2">
+                    <a href="https://www.google.com" target="_blank" rel="noopener">
+                        <center><img src="img/googlelogo.png" width="100px" height="35px" alt="Logo de Google"></center>
+                    </a>
+                </td>
+                <td rowspan="2" valign="top" align="right">Dato3</td>
+            </tr>
+
+
+            <tr>
+                <td bgcolor="#d3d3d3">
+                    <center><b>Enlace a <font color="green">otra pagina de tu carpeta</font>
+                    </center></b>
+                </td>
+                <td>
+                    <a target="_blank" href="../PRACTICA1/index.html">Practica 1</a>
+                </td>
+                <td>
+                    <a href="#listapaises">Lista de países de Práctica 1</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <p><a href="#">Ir al inicio</a></p>
+
+    <!-- <script src="js/script.js"></script> Aquí igual, sabría ponerlo :) -->
+</body>
+
+</html>
